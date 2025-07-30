@@ -1,0 +1,25 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Virtual environments
+.env/
+.venv/
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# Local dev dbs
+*.sqlite3
+.env
