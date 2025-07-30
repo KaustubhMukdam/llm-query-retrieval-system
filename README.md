@@ -1,4 +1,4 @@
-# 🧠 LLM Query–Retrieval System
+# LLM Query–Retrieval System
 
 A FastAPI-based intelligent query engine for large document understanding and clause-based decision making — targeting insurance, legal, HR, and compliance domains.
 
