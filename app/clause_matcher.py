@@ -1,13 +1,13 @@
 import requests
 import os
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "your-groq-api-key-here"  # fallback if not set
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") or "your-groq-api-key-here" 
 
 def generate_answer(query: str, relevant_clauses: list[str]) -> str:
     """
     Uses LLM (Groq) to answer the user's query based on the matched clauses.
     """
-    context = "\n\n".join(relevant_clauses)[:8000]  # Truncate if needed to stay within context limit
+    context = "\n\n".join(relevant_clauses)[:8000]  
 
     prompt = f"""You are a legal assistant answering questions from policy documents.
 
