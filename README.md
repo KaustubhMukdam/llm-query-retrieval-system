@@ -4,7 +4,7 @@ A FastAPI-based intelligent query engine for large document understanding and cl
 
 ---
 
-## 🚀 Features
+## Features
 
 - PDF, DOCX, and email document parsing
 - Clause-level semantic retrieval using FAISS
@@ -14,16 +14,16 @@ A FastAPI-based intelligent query engine for large document understanding and cl
 
 ---
 
-## 📦 Tech Stack
+## Tech Stack
 
-- 🐍 Python
-- ⚡ FastAPI
-- 🧠 OpenAI / Groq LLMs
-- 📚 LangChain
-- 🔍 FAISS (Vector Search)
-- 🗃️ PostgreSQL (planned for doc indexing)
+- Python
+- FastAPI
+- OpenAI / Groq LLMs
+- LangChain
+- FAISS (Vector Search)
+- PostgreSQL (planned for doc indexing)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
