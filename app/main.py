@@ -37,7 +37,6 @@ def generate_answer_with_groq(question: str, context_chunks: list[str]) -> str:
 
 @app.post("/api/v1/hackrx/run", response_model=QueryResponse)
 def run_query(request: QueryRequest, authorization: str = Header(...)):
-    # Optional: validate token format (can be removed if not needed)
     if not authorization.startswith("Bearer "):
         raise HTTPException(status_code=401, detail="Invalid Authorization token")
 
