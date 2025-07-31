@@ -1,6 +1,7 @@
 sentence-transformers
 openai
 groq
+fastapi
 
 langchain
 langchain-community
@@ -18,3 +19,5 @@ tqdm
 requests
 pandas
 rich
+
+
