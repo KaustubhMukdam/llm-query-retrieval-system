@@ -20,4 +20,5 @@ requests
 pandas
 rich
 
-
+fastapi
+uvicorn
